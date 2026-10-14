@@ -75,7 +75,7 @@ class HomeOverviewTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
       navigationBar: const CupertinoNavigationBar(
-        middle: Text('Experiment 11: iOS Target'),
+        middle: Text('Experiment 11: iOS Target - Edwin Paul'),
       ),
       child: SafeArea(
         child: ListView(

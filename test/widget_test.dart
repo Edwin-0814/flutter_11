@@ -5,7 +5,7 @@ void main() {
   testWidgets('App renders HomeOverviewTab and checklist', (WidgetTester tester) async {
     await tester.pumpWidget(const IOSFlutterApp());
 
-    expect(find.text('Experiment 11: iOS Target'), findsOneWidget);
+    expect(find.text('Experiment 11: iOS Target - Edwin Paul'), findsOneWidget);
     expect(find.text('iOS Build Target Verified'), findsOneWidget);
     expect(find.text('Step 7 – Test Application Checklist'), findsOneWidget);
   });
